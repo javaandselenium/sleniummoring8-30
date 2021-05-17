@@ -42,6 +42,7 @@ public	WebDriver driver;
 		String url = driver.getCurrentUrl();
 		Reporter.log(url,true);
 		s.assertAll();
+		
 	}
 	
 	@AfterMethod
